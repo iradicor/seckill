@@ -16,7 +16,7 @@
 #### 安装教程
 
 1. 创建一个新的Maven项目,没有Maven选项的,说明eclipse没有按照Maven插件.
-- ![](https://images.gitee.com/uploads/images/2018/0716/164657_9f76192f_1857479.png "TIM图片20180716164318.png")
+- ![](https://github.com/iradicor/seckill/blob/master/images/TIM%E5%9B%BE%E7%89%8720180716164318.png "TIM图片20180716164318.png")
 - ![](https://images.gitee.com/uploads/images/2018/0716/164743_d52845e6_1857479.png "TIM图片20180716164332.png")
 - ![](https://images.gitee.com/uploads/images/2018/0716/164815_2ff08ade_1857479.png "TIM图片20180716164335.png")
 - ![](https://images.gitee.com/uploads/images/2018/0716/164822_8e91a303_1857479.png "TIM图片20180716164339.png")
