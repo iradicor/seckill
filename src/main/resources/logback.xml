@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<configuration debug="true">
+	<property resource="properties/logback.properties" />
+	
+`	<!--控制台输出 -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+	    <encoder>
+	        <!-- 慕课网的日志输出格式:
+	        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern> -->
+	        
+	        <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level[%thread]%logger{56}.%method\(\):%L -%msg%n</pattern>
+	    </encoder>
+	</appender>
+	
+	<!--文件输出 -->
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <Encoding>UTF-8</Encoding>
+        <File>${log.base}seckill.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log.base}comment.%d{yyyy-MM-dd}.log.zip</FileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date|%msg%n</pattern>
+        </encoder>
+    </appender>
+    
+	<!-- 指定项目可输出的最低级别日志 -->
+	<root level="debug">
+	    <appender-ref ref="STDOUT"/>
+	    <appender-ref ref="FILE"/>
+	</root>
+</configuration>
