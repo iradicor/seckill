@@ -16,20 +16,20 @@
 #### 安装教程
 
 1. 创建一个新的Maven项目,没有Maven选项的,说明eclipse没有按照Maven插件.
-![](https://github.com/iradicor/seckill/blob/master/images/TIM%E5%9B%BE%E7%89%8720180716164318.png "TIM图片20180716164318.png")
-![](https://images.gitee.com/uploads/images/2018/0716/164743_d52845e6_1857479.png "TIM图片20180716164332.png")
-![](https://images.gitee.com/uploads/images/2018/0716/164815_2ff08ade_1857479.png "TIM图片20180716164335.png")
-![](https://images.gitee.com/uploads/images/2018/0716/164822_8e91a303_1857479.png "TIM图片20180716164339.png")
+- ![](https://github.com/iradicor/seckill/blob/master/images/TIM%E5%9B%BE%E7%89%8720180716164318.png "TIM图片20180716164318.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/164743_d52845e6_1857479.png "TIM图片20180716164332.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/164815_2ff08ade_1857479.png "TIM图片20180716164335.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/164822_8e91a303_1857479.png "TIM图片20180716164339.png")
 2. 导入项目
-![](https://images.gitee.com/uploads/images/2018/0716/164843_9594de39_1857479.png "TIM图片20180716164342.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/164843_9594de39_1857479.png "TIM图片20180716164342.png")
 3. 将下载的src文件夹和pom.xml文件一起拖动到seckill项目的根目录下,选择Copy files,点击OK,选择Overwrite All来进行全部替换,导入后发现有很多地方报错,先把错误解决.
-![](https://images.gitee.com/uploads/images/2018/0716/164937_9aea712e_1857479.png "TIM图片20180716164345.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/164937_9aea712e_1857479.png "TIM图片20180716164345.png")
 4. 打开eclipse配置页
-![](https://images.gitee.com/uploads/images/2018/0716/165013_7e5a9813_1857479.png "TIM图片20180716164347.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/165013_7e5a9813_1857479.png "TIM图片20180716164347.png")
 5. 找到server一栏-->Runtime-->查看是否添加了Tomcat服务器,如果没有,点击右侧的add来添加一个
-![](https://images.gitee.com/uploads/images/2018/0716/165024_743c475e_1857479.png "TIM图片20180716164350.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/165024_743c475e_1857479.png "TIM图片20180716164350.png")
 6. 鼠标右键项目名,打开项目属性页.
-![](https://images.gitee.com/uploads/images/2018/0716/165216_48984dd8_1857479.png "TIM图片20180716164354.png")
+- ![](https://images.gitee.com/uploads/images/2018/0716/165216_48984dd8_1857479.png "TIM图片20180716164354.png")
 7. 为项目添加Tomcat环境
 - ![](https://images.gitee.com/uploads/images/2018/0716/165246_0193c1ef_1857479.png "TIM图片20180716164357.png")
 - ![](https://images.gitee.com/uploads/images/2018/0716/165255_2be9045e_1857479.png "TIM图片20180716164400.png")
